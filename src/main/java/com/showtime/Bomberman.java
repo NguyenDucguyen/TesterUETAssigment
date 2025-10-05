@@ -1,7 +1,7 @@
 package com.showtime;
 
 public class Bomberman {
-    public static int TinhDiem(int bricks, int enemies, int time) {
+    public static int tinhDiem(int bricks, int enemies, int time) {
 
         final int BRICK_POINT = 10;
         final int ENEMY_POINT = 100;
