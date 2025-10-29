@@ -17,7 +17,7 @@ public class Bomberman {
 
         if (time < 60) {
             totalScore = (int)(totalScore * 1.2);
-        } else if (time <= 180) {
+        } else if ( time>=60 && time <= 180) {
             totalScore = (int)(totalScore * 1.1);
         }
         return totalScore;
